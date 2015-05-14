@@ -31,7 +31,7 @@
           <div class="medalion">
             <h2>MEDALION<br> <strong class="red">WIEDŹMIŃSKI</strong><br> TYLKO NA ALLEGRO</h2>
             <img src="images/medalion.png" alt="MEDALION WIEDŹMIŃSKI" width="297" height="415">
-            <p class="dimensions">szer. 50 mm<br> wys. 39 mm<br> gł. 22 mm<br><br> długość łańcuszka 300 mm</p>
+            <p class="dimensions">szer. 50 mm<br> wys. 39 mm<br> gł. 22 mm<br><br> długość łańcuszka 40 cm</p>
             <p class="gratis">Dla pierwszych <strong class="red">800 zamówień</strong> wiedźmiński medalion GRATIS!*</p>
             <p class="gratis-star">*Medalion zostanie wysłany oddzielną przesyłką do 14 dni od zamówienia gry. Każdy użytkownik może otrzymać tylko jeden medalion, niezależnie od liczby kupionych egzemplarzy gry.</p>
           </div>
@@ -143,7 +143,6 @@ $(function() {
         min_width = $('.wrap').width(),
         current_width = $(window).width(),
         ratio = current_width / min_width,
-        bar_height = $('.allegro-bar').height();
         page_height = $('#page').height();
 
   var update = function() {
@@ -165,7 +164,7 @@ $(function() {
       $('#page .wrap, #page, body').removeAttr('style');
     }
 
-  }
+  };
 
   if (!jQuery.browser.mobile) {
     update();
